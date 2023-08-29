@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vietnamese=["Xuan Nhat", "Anh"];
+        let english=["handsome", "beautiful"];
+        let text=prompt("moi nhap tu can chuyen sang tieng anh");
+        let index=vietnamese.indexOf(text);
+        if (index != -1){
+            console.log(`tu ${text} dich sang tieng anh la ${english[index]}`);
+        }else {
+            console.log("tu khong tim thay");
+        }
+    </script>
+    
+</body>
+</html>

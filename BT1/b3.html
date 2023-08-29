@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    /* var text = 'Keep Calm And Code On';
+        var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+        var result = [];
+
+        for (var x = 0; x < str.length; x++) {
+            if (UPPER.indexOf(text[x]) !== -1) {
+                result.push(text[x].toLowerCase());
+            }
+            else if (LOWER.indexOf(str[x]) !== -1) {
+                result.push(text[x].toUpperCase());
+            }
+            else {
+                result.push(text[x]);
+            }
+        }
+        console.log(result.join('')); */
+       let str = prompt("Nhap chu tuy y");
+       let text ="";
+       for ( let i=0; i<str.length; i++){
+        if (str[i]<"a"){
+            text+=str[i].toLowerCase();
+        }else{
+            text+=str[i].toUpperCase()
+        }
+       }console.log(text);
+        
+   </script>
+    
+</body>
+</html>
